@@ -69,18 +69,18 @@ export const education = [
     duration: 'Aug 2016 – Aug 2020',
     score: 'CGPA: 7.76/10',
   },
-  {
-    institution: 'Sri Chaitanya Junior College',
-    degree: 'Intermediate State Board',
-    duration: 'April 2014 - April 2016',
-    score: '93.5%',
-  },
-  {
-    institution: 'Narayana IIT Olympiad School',
-    degree: 'Class 10th State Board',
-    duration: 'April 2013 - April 2014',
-    score: '9.8/10 CGPA',
-  },
+  // {
+  //   institution: 'Sri Chaitanya Junior College',
+  //   degree: 'Intermediate State Board',
+  //   duration: 'April 2014 - April 2016',
+  //   score: '93.5%',
+  // },
+  // {
+  //   institution: 'Narayana IIT Olympiad School',
+  //   degree: 'Class 10th State Board',
+  //   duration: 'April 2013 - April 2014',
+  //   score: '9.8/10 CGPA',
+  // },
 ];
 
 export const projects = [
@@ -220,7 +220,7 @@ export const leadershipAndInvolvement = [
     organization: 'BRANDANSWERS, Trivandrum, India',
     duration: 'November 2020 - February 2021',
     points: [
-      "Launched the 'Jeevani-Sanjeevani' platform using React JS, enhancing user experience for more than 5,000 farmers and streamlining access to vital agricultural information through innovative design features.",
+      'Launched ‘Jeevani-Sanjeevani’, a Kerala State Government platform, using React JS to deliver essential agricultural and healthcare information to over 5,000 farmers via a user-friendly digital interface.',
     ],
   },
   {
@@ -228,7 +228,7 @@ export const leadershipAndInvolvement = [
     organization: 'ASSETMONK PROPERTIES PVT.LTD, Hyderabad, India',
     duration: 'June 2020 - September 2020',
     points: [
-      'Guided front-end development of mobile app using Ionic and Angular8, decreasing load times by 25% and advancing user retention by 30%.',
+      'Led the front-end development of a cross-platform real estate mobile app using Ionic and Angular 8, achieving a 25% decrease in load times and a 30% improvement in user retention through responsive design and performance tuning',
     ],
   },
   {

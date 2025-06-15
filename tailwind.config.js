@@ -47,7 +47,7 @@ export default {
           'monospace',
         ],
         custom: ['"Playfair Display"', 'serif'],
-        cursive: ['"Great Vibes"', 'cursive'],
+        cursive: ['"Rajdhani"', 'sans-serif'],
       },
       animation: {
         // Your existing animations

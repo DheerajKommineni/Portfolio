@@ -26,7 +26,10 @@ const Hero = () => {
           <h3 className="text-accent-1 font-mono text-lg sm:text-xl mb-3">
             Hi, my name is
           </h3>
-          <h1 className="text-5xl sm:text-7xl md:text-8xl font-cursive text-red-500 mb-4">
+          {/* <h1 className="text-5xl sm:text-7xl md:text-8xl font-cursive text-red-500 mb-4">
+            {personalInfo.name}.
+          </h1> */}
+          <h1 className="text-5xl sm:text-7xl md:text-8xl font-cursive text-[#ffffff] mb-4 tracking-tight drop-shadow-[0_1px_10px_#00f5d4]">
             {personalInfo.name}.
           </h1>
 
