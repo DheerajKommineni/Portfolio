@@ -43,6 +43,8 @@ import {
   SiRedux,
   SiPython,
 } from 'react-icons/si';
+import csufLogo from '../data/csuf.png';
+import bmlLogo from '../data/bml.png';
 
 export const personalInfo = {
   name: 'Dheeraj Kommineni',
@@ -62,12 +64,14 @@ export const education = [
     degree: "Master's in Computer Science",
     duration: 'Jan 2023 – Jan 2025',
     score: 'CGPA: 3.83/10',
+    image: csufLogo, // <-- Add image path here
   },
   {
     institution: 'BML Munjal University',
     degree: 'Bachelor of Engineering in Computer Science',
     duration: 'Aug 2016 – Aug 2020',
     score: 'CGPA: 7.76/10',
+    image: bmlLogo, // <-- Add image path here
   },
   // {
   //   institution: 'Sri Chaitanya Junior College',

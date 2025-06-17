@@ -56,11 +56,17 @@ const About = () => {
               custom={index}
               viewport={{ once: true, amount: 0.2 }}
             >
-              <div className="flex items-center mb-3">
-                {edu.institution.toLowerCase().includes('university') ? (
-                  <FaUniversity className="text-accent-1 mr-3 text-2xl" />
+              <div className="flex items-center mb-4 space-x-3">
+                {edu.image ? (
+                  <img
+                    src={edu.image}
+                    alt={edu.institution}
+                    className="w-10 h-10 object-contain rounded-md bg-white p-1 shadow-md"
+                  />
+                ) : edu.institution.toLowerCase().includes('university') ? (
+                  <FaUniversity className="text-accent-1 text-2xl" />
                 ) : (
-                  <FaSchool className="text-accent-1 mr-3 text-2xl" />
+                  <FaSchool className="text-accent-1 text-2xl" />
                 )}
                 <h4 className="text-xl font-semibold text-text-primary">
                   {edu.institution}
